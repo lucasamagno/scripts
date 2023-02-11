@@ -5,7 +5,7 @@
 
 my_string = "WhooOoOo!?!!?"
 
-def indexAndCountLetters(my_string):
+def index_and_count_letters(my_string):
     letter_list = []
     letter_dict = dict()
     
@@ -25,7 +25,7 @@ def indexAndCountLetters(my_string):
 
     return resulting_string 
 
-result = indexAndCountLetters(my_string)
+result = index_and_count_letters(my_string)
 
 print(result)
 

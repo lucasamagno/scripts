@@ -8,9 +8,9 @@ my_string = "WhooOoOo!?!!?"
 def indexAndCountLetters(my_string):
     letter_list = []
     letter_dict = dict()
-    my_string_lower_case = my_string.lower()
     
     #count letters
+    my_string_lower_case = my_string.lower()
     for i in range(len(my_string)):
         letter_list.append(my_string[i])
         if my_string_lower_case[i] in letter_dict:
